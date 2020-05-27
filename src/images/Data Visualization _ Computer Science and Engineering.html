@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://cse.uhh.hawaii.edu/data_visualization/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Data Visualization | Computer Science and Engineering</title>
+<link rel="stylesheet" href="./Data Visualization _ Computer Science and Engineering_files/uhhilo2015-mbest.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>@-ms-viewport{width:extend-to-zoom;zoom:1.0;}</style>
+<link rel="stylesheet" href="./Data Visualization _ Computer Science and Engineering_files/opensanshawaii.css">
+<style>
+.admin { background-color: rgba(255,0,0,0.1); }
+.hide { display: none; }
+.aside {width: 100%;}
+@media all and (min-width: 50em){
+  .main{padding-top:1rem;min-height:300px}
+  .main>.container{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row   wrap;-moz-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap}
+  .main .content{width:72%}
+  .main .aside{margin-left:3%;width:25%;border:none;text-align:left}
+  .main .aside:empty{display:none}
+}
+figure{margin:0 0 1em 0;text-align:center}figure table{text-align:left}@media all and (min-width: 35em){figure.pull-right{margin-left:1em;max-width:40%}figure.pull-left{margin-right:1em;max-width:40%}}figcaption{font-family:-apple-system,system-ui,BlinkMacSystemFont,Roboto,"Helvetica Neue",Arial,sans-serif;font-size:0.9em;color:#484848}a figcaption{color:inherit}
+h1.alt, h2.alt, h3.alt, h4.alt {
+    background: #373737 url(/assets/images/uhhilo-lehua-dark.jpg);
+    border-radius: 3px;
+    color: #fff;
+    font-weight: normal;
+    padding: 0.2em;
+}
+
+@supports (display: grid){.two-by,.three-by,.four-by,.five-by,.six-by{display:grid;grid-gap:1em}.two-by>*,.three-by>*,.four-by>*,.five-by>*,.six-by>*{width:auto;margin-right:0;margin-bottom:0}.two-by.no-gap,.three-by.no-gap,.four-by.no-gap,.five-by.no-gap,.six-by.no-gap{grid-gap:0}.two-by.padded>*,.three-by.padded>*,.four-by.padded>*,.five-by.padded>*,.six-by.padded>*{padding:0.5em}.two-by.center>*,.three-by.center>*,.four-by.center>*,.five-by.center>*,.six-by.center>*{text-align:center}@media screen and (min-width: 35em){.two-by>*.x2,.three-by>*.x2,.four-by>*.x2,.five-by>*.x2,.six-by>*.x2{grid-column:span 2}.two-by>*.x3,.three-by>*.x3,.four-by>*.x3,.five-by>*.x3,.six-by>*.x3{grid-column:span 3}.two-by>*.x4,.three-by>*.x4,.four-by>*.x4,.five-by>*.x4,.six-by>*.x4{grid-column:span 4}.two-by>*.x5,.three-by>*.x5,.four-by>*.x5,.five-by>*.x5,.six-by>*.x5{grid-column:span 5}.two-by>*.x6,.three-by>*.x6,.four-by>*.x6,.five-by>*.x6,.six-by>*.x6{grid-column:span 6}.two-by,.four-by,.six-by{grid-template-columns:1fr 1fr}.three-by,.five-by{grid-template-columns:repeat(3, 1fr)}}
+@media screen and (min-width: 50em){.four-by{grid-template-columns:repeat(4, 1fr)}.five-by{grid-template-columns:repeat(5, 1fr)}.six-by{grid-template-columns:repeat(3, 1fr)}}@media screen and (min-width: 60em){.six-by{grid-template-columns:repeat(6, 1fr)}}}
+.container { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-flex-flow: row wrap; -moz-flex-flow: row wrap; -ms-flex-flow: row wrap; flex-flow: row wrap;}
+@media screen and (min-width: 45em){
+  .container { margin: 0 auto; /*max-width: 55em;*/}
+ }
+img {max-width: 100%;}
+.aside ul {list-style-type: none;margin-left: 0;padding-left: 0;}
+.aside ul li { border-bottom: 1px solid #e3dcca; padding: 0.2em 0;}
+p.crumb {font-size: .8em;font-family: -apple-system,system-ui,BlinkMacSystemFont,Roboto,"Helvetica Neue",Arial,sans-serif;margin-top: 0 !important;color: #666;}
+p.crumb a { text-decoration: none; color: #4d4c4c;}
+.aside ul a {display: block; }
+.aside a {text-decoration: none;word-break: break-word; line-height: 1.4;}
+</style>
+<style>
+.button { border: 1px solid rgba(0,0,0,0.1); padding: 0.2em 0.5em; margin: 4px; border-radius: 2px; cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.1); font-size: inherit; background-color: #d0e4f4;}
+.centered p {margin:0 auto; text-align:center;}
+
+.sunslide-wrapper.sunslide0 { background-color: transparent; }
+</style></head>
+<body data-gr-c-s-loaded="true"><div id="uh-alert-messages" role="alert" aria-atomic="true" aria-label="Emergency alert notifications"></div>
+
+
+            <div class="go-to-menu"><a href="http://cse.uhh.hawaii.edu/data_visualization/#main-menu" title="Open/close menu">Menu</a></div>
+<div id="content_skip" role="navigation"><a href="http://cse.uhh.hawaii.edu/data_visualization/#content">Skip to content</a></div>
+<div class="header">
+    <div class="uhhilo-header">
+        <div class="header-inner">
+            <div class="uhhilo-seal"><a href="https://hilo.hawaii.edu/"><img src="./Data Visualization _ Computer Science and Engineering_files/uhseal.png" alt="University of Hawaiʻi at Hilo"></a></div>
+            <div class="uhhilo-name" role="presentation" aria-hidden="true"><a href="https://hilo.hawaii.edu/"><img src="./Data Visualization _ Computer Science and Engineering_files/uhhilo.png" alt="University of Hawaiʻi at Hilo"></a></div>
+        </div>
+    </div>
+    <div class="dept-header">
+        <div class="header-inner">
+            <div class="banner"><a href="http://cse.uhh.hawaii.edu/"><img src="./Data Visualization _ Computer Science and Engineering_files/banner-logo.png" alt="Computer Science and Engineering"></a></div>
+
+
+            <div class="go-to-menu"><a href="http://cse.uhh.hawaii.edu/data_visualization/#main-menu" title="Open/close menu">Menu</a></div>
+            <div role="navigation" class="menu" id="main-menu">
+                <div class="inner">
+                    
+                    <ul>
+<li><a href="http://cse.uhh.hawaii.edu/about.php">About</a></li>
+<li><a href="http://cse.uhh.hawaii.edu/programs.php">Programs</a></li>
+<li><a href="http://cse.uhh.hawaii.edu/people/">People</a></li>
+<li><a href="http://cse.uhh.hawaii.edu/scholarships.php">Scholarships</a></li>
+<li><a href="http://cse.uhh.hawaii.edu/data_visualization/">Data Visualization</a></li>
+<li><a href="http://cse.uhh.hawaii.edu/events.php">Events</a></li>
+<li><a href="http://cse.uhh.hawaii.edu/contact.php">Contact</a></li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <div class="main container" id="content" role="main">
+
+    <h1>Data Visualization with CyberCANOE</h1>
+        <div class="container flex-container">
+
+    
+
+            <div class="content">
+
+
+
+
+                <style data-file="jquery.sunslide.css">.sunslide-skip{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;-webkit-clip-path:inset(50%);clip-path:inset(50%);border:0}.sunslide-wrapper{background-color:#000;max-width:100%;overflow:hidden}ul.sunslide{list-style-type:none;padding:0;margin:0}ul.sunslide li{margin:0;padding:0}ul.sunslide img,ul.sunslide svg{width:100%;max-width:100%;height:auto;margin:0 auto}.sunslide-nav{text-decoration:none;color:#fff;background-color:rgba(0,0,0,0.8);position:absolute;padding:0 4px;z-index:5}.sunslide-nav.previous,.sunslide-nav.next{top:50%;margin-top:-1em;line-height:2em;padding:0 4px}.sunslide-nav.previous{left:0}.sunslide-nav.next{right:0}.sunslide-nav.play{top:0;right:0;padding:0;line-height:0}.sunslide-nav:focus{outline:0;box-shadow:0 0 0 0.2rem rgba(255,255,0,0.8)}.sunslide-caption{position:absolute;bottom:0;left:0;text-align:left;background-color:rgba(0,0,0,0.8);color:#fff;padding:0.5em;width:100%;margin:0;z-index:4}.sunslide-caption a{color:#fff}.sunslide-slide{position:absolute;top:0;left:0;width:100%;height:100%;transition:opacity .5s ease-in-out}.sunslide-active-slide{display:block;z-index:3;opacity:1}.sunslide-next-slide{display:block;z-index:2;opacity:0}.sunslide-hidden-slide{display:none;z-index:1;opacity:0}@media screen and (min-width: 35em){.sunslide-caption{padding:1em}.sunslide-nav{font-size:2em}}
+</style>
+
+<div class="sunslide0 sunslide-wrapper" style="position: relative; height: 486px;"><a href="http://cse.uhh.hawaii.edu/data_visualization/#skip-over-sunslide0" class="sunslide-skip">Skip image slider</a><ul id="sunslider-57" class="sunslide"><li class="sunslide-slide sunslide-hidden-slide" aria-live=""><img src="./Data Visualization _ Computer Science and Engineering_files/view-slider-slide.php" width="1024" height="767" alt="Intro to Data Visualization"></li><li class="sunslide-slide sunslide-hidden-slide" aria-live=""><img src="./Data Visualization _ Computer Science and Engineering_files/view-slider-slide(1).php" width="719" height="480" alt="cyberCANOE at UH Manoa LAVA"></li><li class="sunslide-slide sunslide-hidden-slide" aria-live=""><img src="./Data Visualization _ Computer Science and Engineering_files/view-slider-slide(2).php" width="1024" height="576" alt="Coral Reef Exploration with CAVE"></li><li class="sunslide-slide sunslide-active-slide" aria-live="polite"><img src="./Data Visualization _ Computer Science and Engineering_files/view-slider-slide(3).php" width="1024" height="767" alt="Mookini Library cyberCANOE"></li><li class="sunslide-slide sunslide-next-slide" aria-live=""><img src="./Data Visualization _ Computer Science and Engineering_files/view-slider-slide(4).php" width="1024" height="599" alt="Data Visualization at Computer Science"></li></ul><a href="http://cse.uhh.hawaii.edu/data_visualization/#" title="previous slide" class="sunslide-nav previous">←</a><a href="http://cse.uhh.hawaii.edu/data_visualization/#" title="next slide" class="sunslide-nav next">→</a><a href="http://cse.uhh.hawaii.edu/data_visualization/#" title="Toggle automatic slide changes" class="sunslide-nav play"><svg width="1em" height="1em" viewBox="0 0 36 36" fill="#fff"><defs><path id="sunslide0-pause-icon" data-state="playing" d="M11,10L17,10 17,26 11,26M20,10L26,10 26,26 20,26"></path><path id="sunslide0-play-icon" data-state="paused" d="M11,10L18,13.74 18,22.28 11,26M18,13.74L26,18 26,18 18,22.28"></path></defs><use xlink:href="#sunslide0-pause-icon"></use></svg></a><div class="sunslide-caption">Mookini Library cyberCANOE</div><span id="skip-over-sunslide0"></span></div>
+
+<p><link rel="stylesheet" href="./Data Visualization _ Computer Science and Engineering_files/kenburns-4-item.css"></p>
+
+<div class="hero-kb">
+
+<div class="slideshow">
+  <div class="slideshow-image" style="background-image: url(&#39;https://hilo.hawaii.edu/view-slider-slide.php?slide=770&#39;)"></div>
+  <div class="slideshow-image" style="background-image: url(&#39;https://hilo.hawaii.edu/view-slider-slide.php?slide=771&#39;)"></div>
+  <div class="slideshow-image" style="background-image: url(&#39;https://hilo.hawaii.edu/view-slider-slide.php?slide=773&#39;)"></div>
+  <div class="slideshow-image" style="background-image: url(&#39;https://hilo.hawaii.edu/view-slider-slide.php?slide=768&#39;)"></div>
+  <div class="slideshow-image" style="background-image: url(&#39;https://hilo.hawaii.edu/view-slider-slide.php?slide=730&#39;)"></div>
+</div>
+
+</div>
+
+<hr>
+
+<p>The acronym <abbr title="Cyber Enabled Collaboration Analysis Navigation and Observation Environment">CyberCANOE</abbr> stands for “Cyber Enabled Collaboration Analysis Navigation and Observation Environment,” a display technology that enables users from varied disciplines at different campuses in the UH System to collaborate on projects. It is the brainchild of UH Mānoa Professor of Computer Science Dr. Jason Leigh of the Laboratory for Advanced Visualization and Applications or LAVA.</p>
+
+<p>The CyberCANOEs are funded by the Academy for Creative Media System, based at UH Mānoa under founder and director Chris Lee, as part of ACM’s support for the 10-campus UH System. The ACM System is dedicated to fostering collaboration between campuses and disciplines, and the new <abbr title="Cyber Enabled Collaboration Analysis Navigation and Observation Environment">CyberCANOE</abbr> at ‘Imiloa now unites UH Mānoa and UH West O‘ahu with UH Hilo, bringing together science with art, design and storytelling.</p>
+
+<p>The CyberCANOEs being built in Hawai‘i all have varying capabilities. For example, some of them have stereoscopic 3D or tracking. This type of technology can scan historical sites as part of preservation measures, so that centuries from now people can still visit those places even though the site might be long gone.</p>
+
+<p>This team-taught course provides an interdisciplinary framework for learning cutting-edge data visualization techniques. The class enables students from varied disciplines to work together and develop collaborative projects. Students are taught hands-on skills for creating effective data visualization products and tools that can be applied to a broad range of scientific disciplines. Final projects will utilize data from the natural sciences to create interactive and immersive data visualization projects to promote public awareness of environmental issues facing Hawaiian ecosystems.</p>
+
+            </div>
+            <div class="aside" role="complementary" aria-label="Sidebar links and content">
+                <p class="hide visuallyhidden"><a href="http://cse.uhh.hawaii.edu/data_visualization/#footer">Skip sidebar to footer</a></p><ul>
+<li><a href="https://hilo.hawaii.edu/catalog/digital-visualization-com-certificate"><strong>Certificate Requirements</strong> <svg width="1em" height="1em" viewBox="0 0 64 64" class="svg-icon fa-external-link" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M49.7,37.5v11.1c0,2.7-1,5.1-2.9,7c-1.9,1.9-4.3,2.9-7,2.9H11c-2.7,0-5.1-1-7-2.9C2,53.7,1,51.4,1,48.6V19.8 c0-2.7,1-5.1,2.9-7s4.3-2.9,7-2.9h24.4c0.3,0,0.6,0.1,0.8,0.3s0.3,0.5,0.3,0.8v2.2c0,0.3-0.1,0.6-0.3,0.8c-0.2,0.2-0.5,0.3-0.8,0.3 H11c-1.5,0-2.8,0.5-3.9,1.6C6,17,5.4,18.3,5.4,19.8v28.8c0,1.5,0.5,2.8,1.6,3.9c1.1,1.1,2.4,1.6,3.9,1.6h28.8c1.5,0,2.8-0.5,3.9-1.6 c1.1-1.1,1.6-2.4,1.6-3.9V37.5c0-0.3,0.1-0.6,0.3-0.8c0.2-0.2,0.5-0.3,0.8-0.3h2.2c0.3,0,0.6,0.1,0.8,0.3 C49.6,36.9,49.7,37.2,49.7,37.5z M63,7.6v17.7c0,0.6-0.2,1.1-0.7,1.6c-0.4,0.4-1,0.7-1.6,0.7c-0.6,0-1.1-0.2-1.6-0.7l-6.1-6.1 L30.6,43.4c-0.2,0.2-0.5,0.3-0.8,0.3c-0.3,0-0.6-0.1-0.8-0.3L25,39.4c-0.2-0.2-0.3-0.5-0.3-0.8c0-0.3,0.1-0.6,0.3-0.8l22.6-22.6 l-6.1-6.1c-0.4-0.4-0.7-1-0.7-1.6s0.2-1.1,0.7-1.6c0.4-0.4,1-0.7,1.6-0.7h17.7c0.6,0,1.1,0.2,1.6,0.7C62.8,6.5,63,7,63,7.6z"></path></svg></a></li>
+<li><a href="http://cse.uhh.hawaii.edu/data_visualization/student_projects">Student Projects</a></li>
+<li><a href="http://cse.uhh.hawaii.edu/data_visualization">Data Visualization Home</a></li>
+<li><a href="http://lava.manoa.hawaii.edu/">Laboratory for Advanced Visualization and Applications <svg width="1em" height="1em" viewBox="0 0 64 64" class="svg-icon fa-external-link" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M49.7,37.5v11.1c0,2.7-1,5.1-2.9,7c-1.9,1.9-4.3,2.9-7,2.9H11c-2.7,0-5.1-1-7-2.9C2,53.7,1,51.4,1,48.6V19.8 c0-2.7,1-5.1,2.9-7s4.3-2.9,7-2.9h24.4c0.3,0,0.6,0.1,0.8,0.3s0.3,0.5,0.3,0.8v2.2c0,0.3-0.1,0.6-0.3,0.8c-0.2,0.2-0.5,0.3-0.8,0.3 H11c-1.5,0-2.8,0.5-3.9,1.6C6,17,5.4,18.3,5.4,19.8v28.8c0,1.5,0.5,2.8,1.6,3.9c1.1,1.1,2.4,1.6,3.9,1.6h28.8c1.5,0,2.8-0.5,3.9-1.6 c1.1-1.1,1.6-2.4,1.6-3.9V37.5c0-0.3,0.1-0.6,0.3-0.8c0.2-0.2,0.5-0.3,0.8-0.3h2.2c0.3,0,0.6,0.1,0.8,0.3 C49.6,36.9,49.7,37.2,49.7,37.5z M63,7.6v17.7c0,0.6-0.2,1.1-0.7,1.6c-0.4,0.4-1,0.7-1.6,0.7c-0.6,0-1.1-0.2-1.6-0.7l-6.1-6.1 L30.6,43.4c-0.2,0.2-0.5,0.3-0.8,0.3c-0.3,0-0.6-0.1-0.8-0.3L25,39.4c-0.2-0.2-0.3-0.5-0.3-0.8c0-0.3,0.1-0.6,0.3-0.8l22.6-22.6 l-6.1-6.1c-0.4-0.4-0.7-1-0.7-1.6s0.2-1.1,0.7-1.6c0.4-0.4,1-0.7,1.6-0.7h17.7c0.6,0,1.1,0.2,1.6,0.7C62.8,6.5,63,7,63,7.6z"></path></svg></a></li>
+<li><a href="http://sage2.sagecommons.org/">SAGE2 <svg width="1em" height="1em" viewBox="0 0 64 64" class="svg-icon fa-external-link" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M49.7,37.5v11.1c0,2.7-1,5.1-2.9,7c-1.9,1.9-4.3,2.9-7,2.9H11c-2.7,0-5.1-1-7-2.9C2,53.7,1,51.4,1,48.6V19.8 c0-2.7,1-5.1,2.9-7s4.3-2.9,7-2.9h24.4c0.3,0,0.6,0.1,0.8,0.3s0.3,0.5,0.3,0.8v2.2c0,0.3-0.1,0.6-0.3,0.8c-0.2,0.2-0.5,0.3-0.8,0.3 H11c-1.5,0-2.8,0.5-3.9,1.6C6,17,5.4,18.3,5.4,19.8v28.8c0,1.5,0.5,2.8,1.6,3.9c1.1,1.1,2.4,1.6,3.9,1.6h28.8c1.5,0,2.8-0.5,3.9-1.6 c1.1-1.1,1.6-2.4,1.6-3.9V37.5c0-0.3,0.1-0.6,0.3-0.8c0.2-0.2,0.5-0.3,0.8-0.3h2.2c0.3,0,0.6,0.1,0.8,0.3 C49.6,36.9,49.7,37.2,49.7,37.5z M63,7.6v17.7c0,0.6-0.2,1.1-0.7,1.6c-0.4,0.4-1,0.7-1.6,0.7c-0.6,0-1.1-0.2-1.6-0.7l-6.1-6.1 L30.6,43.4c-0.2,0.2-0.5,0.3-0.8,0.3c-0.3,0-0.6-0.1-0.8-0.3L25,39.4c-0.2-0.2-0.3-0.5-0.3-0.8c0-0.3,0.1-0.6,0.3-0.8l22.6-22.6 l-6.1-6.1c-0.4-0.4-0.7-1-0.7-1.6s0.2-1.1,0.7-1.6c0.4-0.4,1-0.7,1.6-0.7h17.7c0.6,0,1.1,0.2,1.6,0.7C62.8,6.5,63,7,63,7.6z"></path></svg></a></li>
+<li><a href="https://www.indeed.com/q-Data-Visualization-jobs.html">Jobs <svg width="1em" height="1em" viewBox="0 0 64 64" class="svg-icon fa-external-link" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M49.7,37.5v11.1c0,2.7-1,5.1-2.9,7c-1.9,1.9-4.3,2.9-7,2.9H11c-2.7,0-5.1-1-7-2.9C2,53.7,1,51.4,1,48.6V19.8 c0-2.7,1-5.1,2.9-7s4.3-2.9,7-2.9h24.4c0.3,0,0.6,0.1,0.8,0.3s0.3,0.5,0.3,0.8v2.2c0,0.3-0.1,0.6-0.3,0.8c-0.2,0.2-0.5,0.3-0.8,0.3 H11c-1.5,0-2.8,0.5-3.9,1.6C6,17,5.4,18.3,5.4,19.8v28.8c0,1.5,0.5,2.8,1.6,3.9c1.1,1.1,2.4,1.6,3.9,1.6h28.8c1.5,0,2.8-0.5,3.9-1.6 c1.1-1.1,1.6-2.4,1.6-3.9V37.5c0-0.3,0.1-0.6,0.3-0.8c0.2-0.2,0.5-0.3,0.8-0.3h2.2c0.3,0,0.6,0.1,0.8,0.3 C49.6,36.9,49.7,37.2,49.7,37.5z M63,7.6v17.7c0,0.6-0.2,1.1-0.7,1.6c-0.4,0.4-1,0.7-1.6,0.7c-0.6,0-1.1-0.2-1.6-0.7l-6.1-6.1 L30.6,43.4c-0.2,0.2-0.5,0.3-0.8,0.3c-0.3,0-0.6-0.1-0.8-0.3L25,39.4c-0.2-0.2-0.3-0.5-0.3-0.8c0-0.3,0.1-0.6,0.3-0.8l22.6-22.6 l-6.1-6.1c-0.4-0.4-0.7-1-0.7-1.6s0.2-1.1,0.7-1.6c0.4-0.4,1-0.7,1.6-0.7h17.7c0.6,0,1.1,0.2,1.6,0.7C62.8,6.5,63,7,63,7.6z"></path></svg></a></li>
+</ul>            </div>
+        </div>
+
+    </div>
+
+
+<div id="footer" role="contentinfo">
+    <div id="innerfooter">
+        <ul class="footerlinks">
+  <li><a href="http://cse.uhh.hawaii.edu/contact">Contact Us</a></li>
+  <li><a href="https://www.facebook.com/uhhcse"><svg width="1em" height="1em" viewBox="0 0 64 64" class="svg-icon facebook-official-color" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg"><rect x="25.6" y="10" width="28" height="52.8" fill="#fff"></rect><path fill="#3b5998" d="M59.6,1c0.9,0,1.7,0.3,2.4,1s1,1.5,1,2.4v55.1c0,0.9-0.3,1.7-1,2.4s-1.5,1-2.4,1H43.8V39h8l1.2-9.4h-9.2v-6 c0-1.5,0.3-2.6,0.9-3.4c0.6-0.8,1.9-1.1,3.7-1.1l4.9,0v-8.4c-1.7-0.2-4.1-0.4-7.2-0.4c-3.7,0-6.6,1.1-8.8,3.2 c-2.2,2.2-3.3,5.2-3.3,9.1v6.9H26V39h8.1v24H4.4c-0.9,0-1.7-0.3-2.4-1s-1-1.5-1-2.4V4.4C1,3.5,1.3,2.7,2,2s1.5-1,2.4-1H59.6z"></path></svg> Facebook</a></li>
+</ul>        <p>
+            © 2020 <a href="https://hilo.hawaii.edu/">University of
+                <span aria-label="Hawaii">Hawaiʻi</span> at Hilo</a><br> 200 W. Kāwili St., Hilo, HI 96720-4091; Tel: (808) 932-7446 or 1-800-897-4456; Fax: (808) 932-7459
+
+
+
+        </p>
+        <p>
+            UH Hilo is a campus of the <a href="http://www.hawaii.edu/">University of
+                <span aria-label="Hawaii">Hawaiʻi</span> System</a> and is an
+            <a href="https://hilo.hawaii.edu/eeoaa/">Equal Opportunity/Affirmative Action</a> Institution.<br>
+            <a href="https://hilo.hawaii.edu/admissions/forms/request_info.php">Request more information about UH Hilo</a>.
+            <a href="https://hilo.hawaii.edu/help/website-policies.php">Website Privacy and Policies</a>.
+        </p>
+            </div>
+</div>
+<script async="" src="./Data Visualization _ Computer Science and Engineering_files/analytics.js.download"></script><script async="" src="./Data Visualization _ Computer Science and Engineering_files/analytics.js.download"></script><script type="text/javascript" src="./Data Visualization _ Computer Science and Engineering_files/jquery-1.12.4.min.js.download"></script>
+<script type="text/javascript" src="./Data Visualization _ Computer Science and Engineering_files/uhhilo2015-mbest.min.js.download"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-8500332-5', 'auto');
+  ga('send', 'pageview');
+</script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-8500332-5', 'auto');
+  ga('send', 'pageview');
+</script><script>"use strict";!function(e,t){var a=t.getElementById("uh-alert-messages");if(!a){var r=t.body;(a=t.createElement("div")).id="uh-alert-messages",a.setAttribute("role","alert"),a.setAttribute("aria-atomic","true"),a.setAttribute("aria-label","Emergency alert notifications"),r.insertBefore(a,r.firstChild)}var s=function e(){var t=JSON.parse(this.responseText),r=[];t&&t.forEach(function(e){e.expired_at||r.push('<div style="color:#000;background-color:#fd6470;text-align:center;padding:1em 0;border-bottom:2px solid #000"><span style="text-transform:uppercase;font-weight:300">Alert:</span> <a href="https://hilo.hawaii.edu/emergency-message/" style="color:#000"><strong>'+e.title+"</strong></a> <small>(Updated "+e.last_update_at+".)</small></div>")}),a.innerHTML=r.join("")},i=function e(t){var a=arguments.length>0&&void 0!==t?t:"uhh",r=new XMLHttpRequest;r.addEventListener("load",s),r.open("GET","https://www.hawaii.edu/alert/api/1.0/alerts/".concat(a)),r.send()};i(),setInterval(i,3e5)}(window,document);</script>
+
+
+<script src="./Data Visualization _ Computer Science and Engineering_files/jquery.sunslide.js.download"></script>
+<script>!(function(){"use strict";
+var slider=document.getElementById("sunslider-57");
+$.getJSON("/plugins/UHHiloSlider/proxy.php?slider=57")
+.done(function(data){var html=[];for(var i=0;i<data.length;i++){html.push('<li>'+(data[i].link?'<a href="'+data[i].link+'">':'')+'<img src="https://hilo.hawaii.edu/view-slider-slide.php?slide='+data[i].id+'" width="'+data[i].width+'" height="'+data[i].height+'" alt="'+data[i].caption.replace(/"/g,"&quot;")+'"/>'+(data[i].link?'</a>':'')+'</li>');}slider.innerHTML=html.join("");})
+.then(function(){$(slider).sunslide({"ratio":"max"});})
+.fail(function(err){window.console&&window.console.error("sunslide loading error (probably CORS)");});
+})();</script>
+
+</body></html>

@@ -18,6 +18,16 @@
     font-size: 80px;
     display:inline-block;
   }
+  .logo{
+    min-width: 30%;
+    width: 300px;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 7.5px 15px;
+    overflow: hidden;
+  }
 
   .options {
     width: 50%;

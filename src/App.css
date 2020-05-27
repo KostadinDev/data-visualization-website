@@ -1,8 +1,32 @@
 body {
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 20px 60px;
-    background-color: black;
+    background-color: white;
+
 }
+.filler{
+    color:white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px 20px;
+    width:65%;
+}
+.homepage-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    font-size:29px;
+    font-family: Arial, serif;
+    padding:0px 0px;
+    width: 70%;
+}
+
+
+
 a {
     text-decoration: none;
     color: black;
@@ -10,4 +34,24 @@ a {
 
 * {
     box-sizing: border-box;
+}
+
+canvas {
+    background: #232323;
+}
+#container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    font-size:29px;
+    padding:0px 0px;
+
+}
+#container canvas, #overlay {
+    position: absolute;
+}
+canvas {
+    border: 1px solid black;
 }

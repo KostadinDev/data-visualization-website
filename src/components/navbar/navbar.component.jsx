@@ -1,31 +1,28 @@
 import React from 'react';
 import {Navbar, Nav, Form, FormControl, Button} from 'react-bootstrap'
-
+import Logo from './../../images/uhseal.png'
 const NavBar = () => (
-    <div className = 'navbar'>
-        <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="#home"><h3>Home</h3></Navbar.Brand>
+    <div className = '' >
+        <Navbar bg="" variant="">
             <Nav className="mr-auto">
-                <Nav.Link href="/about"><h3>About</h3></Nav.Link>
+                <Nav.Link href="/"><h2>About</h2></Nav.Link>
                 <Nav.Link href=""><h3></h3></Nav.Link>
-                <Nav.Link href="#features"><h3>News</h3></Nav.Link>
+                <Nav.Link href="/news"><h2>News</h2></Nav.Link>
                 <Nav.Link href=""><h3></h3></Nav.Link>
-                <Nav.Link href="#pricing"><h3>Projects</h3></Nav.Link>
+                <Nav.Link href="/projects"><h2>Projects</h2></Nav.Link>
                 <Nav.Link href=""><h3></h3></Nav.Link>
-                <Nav.Link href="#pricing"><h3>Products</h3></Nav.Link>
+                <Nav.Link href="/partners"><h2>Partners</h2></Nav.Link>
                 <Nav.Link href=""><h3></h3></Nav.Link>
-                <Nav.Link href="#pricing"><h3>Papers</h3></Nav.Link>
+                <Nav.Link href="/papers"><h2>Papers</h2></Nav.Link>
                 <Nav.Link href=""><h3></h3></Nav.Link>
-                <Nav.Link href="#pricing"><h3>Team</h3></Nav.Link>
+                <Nav.Link href="/people"><h2>People</h2></Nav.Link>
                 <Nav.Link href=""><h3></h3></Nav.Link>
-                <Nav.Link href="#pricing"><h3>Contact</h3></Nav.Link>
+                <Nav.Link href="/media"><h2>Media</h2></Nav.Link>
                 <Nav.Link href=""><h3></h3></Nav.Link>
-                <Nav.Link href="#pricing"><h3>Youtube</h3></Nav.Link>
+                <Nav.Link href="/opportunities"><h2>Opportunities</h2></Nav.Link>
+                <Nav.Link href=""><h3></h3></Nav.Link>
+                <Nav.Link href="/contact"><h2>Contact</h2></Nav.Link>
             </Nav>
-            <Form inline>
-                <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                <Button variant="outline-primary">Search</Button>
-            </Form>
         </Navbar>
     </div>
 );

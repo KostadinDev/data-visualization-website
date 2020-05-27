@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from "../../components/navbar/navbar.component";
 import CarouselSlide from "../../components/carousel/carousel.component";
 import Directory from "../../components/directory/directory.component";
+import sage2 from "../../images/sage2.jpg"
 import './about.styles.scss'
 
 class About extends React.Component {
@@ -15,12 +16,13 @@ class About extends React.Component {
         const { collections } = this.state;
         return (
             <div className='homepage'>
-                <NavBar className = "navbar"/>
-                <br/>
-                <div className="text">
+                <div className="container">
+                    <div className="bg-img" align="center">
+
+                        <CarouselSlide className = "carousel"/>
+                    </div>
                     <div className="inner-body">
-                        <div className="bg-img">
-                        </div>
+
                     <p className = "text">
                 The acronym CyberCANOE stands for “Cyber Enabled Collaboration Analysis Navigation and Observation Environment,” a display technology that enables users from varied disciplines at different campuses in the UH System to collaborate on projects. It is the brainchild of UH Mānoa Professor of Computer Science Dr. Jason Leigh of the Laboratory for Advanced Visualization and Applications or LAVA.
 
