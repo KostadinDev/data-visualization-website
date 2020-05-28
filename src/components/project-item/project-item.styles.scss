@@ -1,12 +1,13 @@
+
 .project-item {
-  width: 700px;
+  width: 600px;
   display: flex;
   flex-direction: column;
   height: 350px;
   align-items: center;
   color:white;
-  padding-right:100px;
-
+  padding-left:50px;
+  padding-right:50px;
 
   justify-content: center;
 
@@ -31,6 +32,8 @@
     justify-content: center;
     border: 1px solid black;
     background-color: white;
+    color:black;
+    font-size:25px;
     opacity: 0.6;
     position: absolute;
 
@@ -66,7 +69,6 @@
     color:white;
 
     .name {
-
       width: 90%;
       font-size:40px;
     }

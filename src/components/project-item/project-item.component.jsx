@@ -11,7 +11,7 @@ const ProjectItem = ({id, name, major, imageUrl,bio}) => (
         </div>
 
         <div className='content'>
-            <span className='title'> {name}</span>/
+            <span className='name'> {name.toUpperCase()}</span>
         </div>
 
     </div>

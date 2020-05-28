@@ -13,7 +13,7 @@ const ProjectCollection = ({ title, items }) => (
                 {items
                     .filter((item, idx) => idx < 2)
                     .map(({ id, ...otherItemProps }) => (
-                        <ProjectItem key={id} {...otherItemProps} />
+                        <ProjectItem key={id}{...otherItemProps} />
                     ))}
 
             </div>

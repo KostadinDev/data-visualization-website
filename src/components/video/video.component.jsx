@@ -4,7 +4,7 @@ import './video.styles.scss'
 const Video = () => {
     return(
         <div>
-            <video autoPlay loop muted width = "1000px" className = "video">
+            <video autoPlay loop muted width = "720" className = "video">
                 <source  src = {DV} type = "video/mp4"/>
             </video>
         </div>
