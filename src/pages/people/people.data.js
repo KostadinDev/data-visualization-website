@@ -1,3 +1,10 @@
+import Francis from './../../images/portraits/francis.JPG'
+import Jared from './../../images/portraits/jared.JPG'
+import Mike from './../../images/portraits/mike.JPG'
+import Kosta from './../../images/portraits/kosta.JPG'
+import Drew from './../../images/portraits/drew.JPG'
+import Brenton from './../../images/portraits/brenton.JPG'
+
 const PEOPLE_DATA = [
     {
         id: 1,
@@ -6,15 +13,15 @@ const PEOPLE_DATA = [
         items: [
             {
                 id: 1,
-                name: 'John Doe',
-                imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+                name: 'Francis Cristobal',
+                imageUrl: Francis,
                 major: "Computer Science",
                 bio: "The Biotechnology Innovation Organization is the largest trade organization in the world that represents the biotechnology industry. It was founded in 1993 as the Biotechnology Industry Organization, and changed its name to the Biotechnology Innovation Organization on January 4, 2016."
             },
             {
                 id: 2,
-                name: 'John Doe',
-                imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+                name: 'Jared McLean',
+                imageUrl: Jared,
                 major: 'Data Science',
                 bio: "The Biotechnology Innovation Organization is the largest trade organization in the world that represents the biotechnology industry. It was founded in 1993 as the Biotechnology Industry Organization, and changed its name to the Biotechnology Innovation Organization on January 4, 2016."
             },
@@ -27,20 +34,44 @@ const PEOPLE_DATA = [
         items: [
             {
                 id: 10,
-                name: 'John Doe',
-                imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+                name: 'Michael Dodge',
+                imageUrl: Mike,
                 major: '',
                 bio: "The Biotechnology Innovation Organization is the largest trade organization in the world that represents the biotechnology industry. It was founded in 1993 as the Biotechnology Industry Organization, and changed its name to the Biotechnology Innovation Organization on January 4, 2016."
             },
             {
                 id: 11,
-                name: 'John Doe',
-                imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+                name: 'Drew Gotshalk',
+                imageUrl: Drew,
                 major: '',
                 bio: "The Biotechnology Innovation Organization is the largest trade organization in the world that represents the biotechnology industry. It was founded in 1993 as the Biotechnology Industry Organization, and changed its name to the Biotechnology Innovation Organization on January 4, 2016."
             },
+
         ]
     },
+    {
+        id: 3,
+        title: '',
+        routeName: 'students',
+        items: [
+            {
+                id: 31,
+                name: 'Brenton Barcelona',
+                imageUrl: Brenton,
+                major: '',
+                bio: "The Biotechnology Innovation Organization is the largest trade organization in the world that represents the biotechnology industry. It was founded in 1993 as the Biotechnology Industry Organization, and changed its name to the Biotechnology Innovation Organization on January 4, 2016."
+            },
+            {
+                id: 32,
+                name: 'Kostadin Devedzhiev',
+                imageUrl: Kosta,
+                major: '',
+                bio: "The Biotechnology Innovation Organization is the largest trade organization in the world that represents the biotechnology industry. It was founded in 1993 as the Biotechnology Industry Organization, and changed its name to the Biotechnology Innovation Organization on January 4, 2016."
+            },
+
+        ]
+    },
+
 ];
 
 export default PEOPLE_DATA;

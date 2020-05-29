@@ -18,11 +18,11 @@ class People extends React.Component {
             ctx = canvas.getContext('2d');
 
         canvas.width = window.innerWidth - 2;
-        canvas.height = window.innerHeight +130;
+        canvas.height = window.innerHeight +400;
 
         var stars = [], // Array that contains the stars
             FPS = 60, // Frames per second
-            x = 300, // Number of stars
+            x = 150, // Number of stars
             mouse = {
                 x: 0,
                 y: 0

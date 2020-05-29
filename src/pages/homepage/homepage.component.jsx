@@ -6,6 +6,7 @@ import Video from '../../components/video/video.component'
 
 import NavBar from '../../components/navbar/navbar.component'
 import NEWS_DATA from "../news/news.data";
+import SocialFollow from "../../components/social-media/social-media.component";
 
 class HomePage extends React.Component {
     constructor(props) {
@@ -19,11 +20,11 @@ class HomePage extends React.Component {
             ctx = canvas.getContext('2d');
 
         canvas.width = window.innerWidth - 2;
-        canvas.height = window.innerHeight - 165;
+        canvas.height = window.innerHeight;
 
         var stars = [], // Array that contains the stars
             FPS = 60, // Frames per second
-            x = 300, // Number of stars
+            x = 150, // Number of stars
             mouse = {
                 x: 0,
                 y: 0

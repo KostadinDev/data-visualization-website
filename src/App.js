@@ -8,51 +8,40 @@ import People from "./pages/people/people.component"
 import NavBar from "./components/navbar/navbar.component";
 import Projects from "./pages/projects/projects.component";
 import News from "./pages/news/news.component";
+import SocialFollow from "./components/social-media/social-media.component"
+import Partners from './pages/partners-page/partners-page.component'
 
 class App extends React.Component {
     constructor() {
         super();
 
-        this.state = {
-        }
+        this.state = {}
     }
 
 
     render() {
         return <div>
-            <div className="homepage-header">
-                <div className="row">
-                    <div className="column">
-                        <div className="logo-image">
-                            <span className="filler">sss</span>
-                        </div>
-                    </div>
-                    <div className="column">
-                        <div className="logo-image">
-                            <img alt="logo" src={UHLogo} width="40%"/>
-                        </div>
-                    </div>
-                    <div className="column">
-                        <br/>
-                        <span className="">
-    Computer Science Data Visualization Lab</span>
-                    </div>
-                </div>
-            </div>
-            <div className="navbar">
+            <div className="header">
+        <div className = "header-logo">
+            <img alt = "logo" height = "80" src = {UHLogo}/>
+        <div className = "text-nav">
+            <h2 className = "logo-text"> Computer Science Data Visualization Lab</h2>
+        <NavBar/>
 
-                <NavBar/>
+        </div>
+        </div>
+        </div>
 
-            </div>
+            <Switch>
+                <Route exact path='/' component={HomePage}/>
+                <Route exact path='/shop' component={ShopPage}/>
+                <Route exact path='/people' component={People}/>
+                <Route exact path='/projects' component={Projects}/>
+                <Route exact path='/news' component={News}/>
+                <Route exact path='/partners' component={Partners}/>
+            </Switch>
 
-                    <Switch>
-                        <Route exact path='/' component={HomePage}/>
-                        <Route exact path='/shop' component={ShopPage}/>
-                        <Route exact path='/people' component={People}/>
-                        <Route exact path='/projects' component={Projects}/>
-                        <Route exact path='/news' component={News}/>
-                    </Switch>
-                </div>
+        </div>
 
 
     }

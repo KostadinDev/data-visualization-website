@@ -1,5 +1,5 @@
 import React from 'react';
-import DV  from '../../images/DV_Full.mp4'
+import DV  from '../../images/DV_Web2.mp4'
 import './video.styles.scss'
 const Video = () => {
     return(

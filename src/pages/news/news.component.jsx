@@ -22,7 +22,7 @@ class News extends React.Component {
 
         var stars = [], // Array that contains the stars
             FPS = 60, // Frames per second
-            x = 300, // Number of stars
+            x = 150, // Number of stars
             mouse = {
                 x: 0,
                 y: 0

@@ -7,24 +7,43 @@ body {
 .filler{
     color:white;
 }
-.navbar{
+
+.right{
     display: flex;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0px 0px;
-    width:65%;
+    align-items: flex-end;
+    text-align: right;
 }
 .homepage-header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align:center;
     margin: 0 auto;
     font-size:25px;
     font-family: Arial, serif;
-    padding:0px 0px;
-    width: 70%;
 }
-
+.logo{
+    display:flex;
+    flex-direction:row;
+}
+.logo-text{
+   font-family:Arial, serif;
+}
+.empty-space{
+    width:150px;
+}
+.header-logo{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    padding:10px;
+}
+.text-nav{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin-left:20px;
+}
 
 
 a {
@@ -55,4 +74,9 @@ canvas {
 }
 canvas {
     border: 1px solid black;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
