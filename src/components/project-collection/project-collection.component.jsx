@@ -4,15 +4,16 @@ import ProjectItem from '../project-item/project-item.component';
 
 import './project-collection.styles.scss';
 
-const ProjectCollection = ({ title, items }) => (
-    <div className = "collection">
+const ProjectCollection = ({title, items}) => (
+
+    <div className="project-body">
         <div className='project-preview'>
 
             <h1 className='title'>{title.toUpperCase()}</h1>
             <div className='preview'>
                 {items
                     .filter((item, idx) => idx < 2)
-                    .map(({ id, ...otherItemProps }) => (
+                    .map(({id, ...otherItemProps}) => (
                         <ProjectItem key={id}{...otherItemProps} />
                     ))}
 

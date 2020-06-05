@@ -3,13 +3,13 @@ import './App.css';
 import HomePage from './pages/homepage/homepage.component.jsx'
 import {Route, Switch} from 'react-router-dom';
 import ShopPage from './pages/shop/shop.component';
-import UHLogo from "./images/web-logos/web/color/hilo-left-c@2.png"
+import UHLogo from "./images/computer-science-logo.png"
 import People from "./pages/people/people.component"
 import NavBar from "./components/navbar/navbar.component";
 import Projects from "./pages/projects/projects.component";
 import News from "./pages/news/news.component";
 import SocialFollow from "./components/social-media/social-media.component"
-import Partners from './pages/partners-page/partners-page.component'
+import Partners from './pages/partners/partners.component'
 
 class App extends React.Component {
     constructor() {
@@ -23,9 +23,9 @@ class App extends React.Component {
         return <div>
             <div className="header">
         <div className = "header-logo">
-            <img alt = "logo" height = "80" src = {UHLogo}/>
+            <img alt = "logo" height = "100" src = {UHLogo}/>
         <div className = "text-nav">
-            <h2 className = "logo-text"> Computer Science Data Visualization Lab</h2>
+            <h2 className = "logo-text"> Data Visualization Lab</h2>
         <NavBar/>
 
         </div>

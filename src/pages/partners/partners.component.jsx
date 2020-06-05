@@ -1,16 +1,24 @@
 import React from 'react';
 
 import PARTNERS_DATA from './partners.data.js';
-import './partners-page.styles.scss'
-import CollectionPreview from '../../components/preview-collection/preview-collection.component';
-import PartnersCollection from "../../components/partners-collection/partners-collection.component";
+import ACM from '../../images/partners/acm.png'
+import Lava from '../../images/partners/lava.png'
+import IkeWai from '../../images/partners/IkeWai-Logo_color.png'
+import Imiloa from '../../images/partners/Imiloa-Logo-800px-Crop.png'
+import Sage2 from '../../images/partners/SAGE2-removebg-preview.png'
+import SDAV from '../../images/partners/SDAV-removebg-preview.png'
+import NSF from '../../images/partners/NSF.png'
+import Mega from '../../images/partners/MEGA.png'
+import UHArt from '../../images/partners/UHArt.png'
+
+import './partners.styles.scss'
 
 class Partners extends React.Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            collections: PARTNERS_DATA
+            collections: PARTNERS_DATA,
         };
     }
 
@@ -19,7 +27,7 @@ class Partners extends React.Component {
             ctx = canvas.getContext('2d');
 
         canvas.width = window.innerWidth - 2;
-        canvas.height = window.innerHeight +130;
+        canvas.height = window.innerHeight + 400;
 
         var stars = [], // Array that contains the stars
             FPS = 60, // Frames per second
@@ -128,10 +136,31 @@ class Partners extends React.Component {
                 <div id="container">
                     <canvas id="canvas"></canvas>
 
-                    <div id="overlay" className="partners-page">
-                        {collections.map(({id, ...otherCollectionProps}) => (
-                            <PartnersCollection key={id} {...otherCollectionProps} />
-                        ))}
+                    <div id="overlay">
+                        <div className="partners-body">
+                            <div className="image-collection">
+                                <p className="title">PARTNERS</p>
+
+                                <a href="http://acm.hawaii.edu/" rel="noopener noreferrer" target="_blank"><img
+                                    className="partners-image" alt="logo" width="250px" src={ACM}/></a>
+                                <a href="https://www.lavaflow.info//" rel="noopener noreferrer" target="_blank"><img
+                                    className="partners-image" alt="logo" width="250px" src={Lava}/></a>
+                                <a href="https://www.hawaii.edu/epscor/ike-wai-project/" rel="noopener noreferrer" target="_blank"><img
+                                    className="partners-image" alt="logo" width="250px" src={IkeWai}/></a>
+                                <a href="https://imiloahawaii.org/" rel="noopener noreferrer" target="_blank"><img
+                                    className="partners-image" alt="logo" width="250px" src={Imiloa}/></a>
+                                <a href="http://spatial.uhh.hawaii.edu/home.htm" rel="noopener noreferrer" target="_blank"><img
+                                    className="partners-image" alt="logo" width="250px" src={SDAV}/></a>
+                                <a href="https://hilo.hawaii.edu/depts/art/ " rel="noopener noreferrer" target="_blank"><img
+                                    className="partners-image" alt="logo" width="250px" src={UHArt}/></a>
+                                <a href="https://www.nsf.gov/" rel="noopener noreferrer" target="_blank"> <img
+                                    className="partners-image" alt="logo" width="250px" src={NSF}/></a>
+                                <a href="http://sage2.sagecommons.org/" rel="noopener noreferrer" target="_blank"> <img
+                                    className="partners-image" alt="logo" width="250px" src={Sage2}/></a>
+                                <a href="https://www.themegalab.org/ " rel="noopener noreferrer" target="_blank"><img
+                                    className="partners-image" alt="logo" width="250px" src={Mega}/></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

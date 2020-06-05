@@ -123,9 +123,9 @@ class Projects extends React.Component {
     render() {
         const {collections} = this.state;
         return (
-            <div className=''>
+            <div className='projects-page'>
                 <div id="project-container">
-                    <canvas id="canvas"></canvas>
+                    <canvas id="canvas"/>
 
                     <div id="project-overlay">
                         {collections.map(({id, ...otherCollectionProps}) => (

@@ -1,11 +1,3 @@
 .projects-page{
-  display: flex;
-  justify-content: center;
-}
-
-#project-container canvas, #project-overlay {
-  position: absolute;
-}
-canvas {
-  border: 1px solid black;
+  align-items: center;
 }

@@ -6,21 +6,21 @@ const NavBar = () => (
     <div className = 'nav' >
         <Navbar bg="" variant="">
             <Nav className="mr-auto">
-                <Nav.Link href="/"><h4>Home</h4></Nav.Link>
-                <Nav.Link href=""><h3></h3></Nav.Link>
-                <Nav.Link href="/news"><h4>News</h4></Nav.Link>
-                <Nav.Link href=""><h3></h3></Nav.Link>
-                <Nav.Link href="/projects"><h4>Projects</h4></Nav.Link>
-                <Nav.Link href=""><h3></h3></Nav.Link>
-                <Nav.Link href="/partners"><h4>Partners</h4></Nav.Link>
-                <Nav.Link href=""><h3></h3></Nav.Link>
-                <Nav.Link href="/papers"><h4>Papers</h4></Nav.Link>
-                <Nav.Link href=""><h3></h3></Nav.Link>
-                <Nav.Link href="/people"><h4>People</h4></Nav.Link>
-                <Nav.Link href=""><h3></h3></Nav.Link>
-                <Nav.Link href="/opportunities"><h4>Opportunities</h4></Nav.Link>
-                <Nav.Link href=""><h3></h3></Nav.Link>
-                <Nav.Link href="/contact"><h4>Contact</h4></Nav.Link>
+                <Nav.Link href="/"><>Home</></Nav.Link>
+                <Nav.Link href=""><></></Nav.Link>
+                <Nav.Link href="/news"><>News</></Nav.Link>
+                <Nav.Link href=""><></></Nav.Link>
+                <Nav.Link href="/projects"><>Projects</></Nav.Link>
+                <Nav.Link href=""><></></Nav.Link>
+                <Nav.Link href="/partners"><>Partners</></Nav.Link>
+                <Nav.Link href=""><></></Nav.Link>
+                <Nav.Link href="/papers"><>Papers</></Nav.Link>
+                <Nav.Link href=""><></></Nav.Link>
+                <Nav.Link href="/people"><>People</></Nav.Link>
+                <Nav.Link href=""><></></Nav.Link>
+                <Nav.Link href="/opportunities"><>Opportunities</></Nav.Link>
+                <Nav.Link href=""><></></Nav.Link>
+                <Nav.Link href="/contact"><>Contact</></Nav.Link>
             </Nav>
         </Navbar>
     </div>

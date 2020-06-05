@@ -1,13 +1,13 @@
 .project-preview {
   display: flex;
   flex-direction: column;
+
   margin-bottom: 30px;
-  color:white;
-  padding-left:200px;
-  padding-right:200px;
+  color: white;
+}
 
   .title {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 10px;
     margin-top: 10px;
     padding-left:50px;
@@ -15,6 +15,7 @@
 
   .preview {
     display: flex;
+
     justify-content: space-between;
   }
-}
+

@@ -13,22 +13,22 @@ class Directory extends React.Component {
         this.state = {
             sections: [
                 {
-                    title: '3D Holographic LED Fans',
+                    title: 'Holographic Fan',
                     imageUrl: DesignART,
                     id: 1,
-                    linkUrl: 'shop/hats'
+                    linkUrl: ''
                 },
                 {
-                    title: 'Cyber CANOE & SAGE2',
+                    title: 'Cyber CANOE',
                     imageUrl: people,
                     id: 2,
-                    linkUrl: 'shop/jackets'
+                    linkUrl: ''
                 },
                 {
-                    title: 'COVID-19 Response',
+                    title: 'COVID Response',
                     imageUrl: DataScienceResearch,
                     id: 3,
-                    linkUrl: 'shop/sneakers'
+                    linkUrl: ''
                 },
 
             ],
