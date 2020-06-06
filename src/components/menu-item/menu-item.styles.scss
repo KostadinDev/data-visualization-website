@@ -51,12 +51,13 @@
     background-color: white;
     opacity: 0.7;
     position: absolute;
+    border: solid 1px;
 
     .title {
       font-weight: bold;
       font-family:Arial, serif;
       font-size: 12px;
-      padding:0 0 0 0;
+      padding:3px 3px 3px 3px;
 
       color: #4a4a4a;
     }

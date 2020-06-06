@@ -126,8 +126,10 @@ class HomePage extends React.Component {
                 <div id="container">
                     <canvas id="canvas"></canvas>
                     <div id="overlay">
+                        <div className="homepage-row">
                         <Video/>
                         <Directory/>
+                        </div>
                     </div>
                 </div>
             </div>
