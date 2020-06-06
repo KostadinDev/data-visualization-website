@@ -8,7 +8,7 @@ const CollectionPreview = ({ title, items }) => (
     <div className = "collection">
     <div className='collection-preview'>
 
-        <h1 className='title'>{title.toUpperCase()}</h1>
+        <h1 className='people-title'>{title.toUpperCase()}</h1>
         <div className='preview'>
             {items
                 .filter((item, idx) => idx < 2)

@@ -123,7 +123,7 @@ class News extends React.Component {
     render() {
         const {collections} = this.state;
         return (
-            <div className=''>
+            <div className='news-page'>
                 <div id="container">
                     <canvas id="canvas"></canvas>
                     <div id="overlay">

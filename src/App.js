@@ -21,17 +21,17 @@ class App extends React.Component {
 
     render() {
         return <div>
+
             <div className="header">
-        <div className = "header-logo">
-            <img alt = "logo" height = "100" src = {UHLogo}/>
-        <div className = "text-nav">
-            <h2 className = "logo-text"> Data Visualization Lab</h2>
-        <NavBar/>
+                <div className="header-logo">
+                    <img alt="logo" height="100" src={UHLogo}/>
+                    <div className="text-nav">
+                        <h2 className="logo-text"> Data Visualization Lab</h2>
+                        <NavBar/>
 
-        </div>
-        </div>
-        </div>
-
+                    </div>
+                </div>
+            </div>
             <Switch>
                 <Route exact path='/' component={HomePage}/>
                 <Route exact path='/shop' component={ShopPage}/>

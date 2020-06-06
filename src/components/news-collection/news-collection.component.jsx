@@ -5,7 +5,7 @@ import NewsItem from '../news-item/news-item.component';
 import './news-collection.styles.scss';
 
 const NewsPreview = ({ title, items }) => (
-    <div className = "">
+
         <div className='news-preview'>
 
             <h1 className='title'>{title.toUpperCase()}</h1>
@@ -18,7 +18,6 @@ const NewsPreview = ({ title, items }) => (
 
             </div>
         </div>
-    </div>
 );
 
 export default NewsPreview;

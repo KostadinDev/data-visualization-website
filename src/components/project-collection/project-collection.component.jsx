@@ -6,7 +6,7 @@ import './project-collection.styles.scss';
 
 const ProjectCollection = ({title, items}) => (
 
-    <div className="project-body">
+
         <div className='project-preview'>
 
             <h1 className='title'>{title.toUpperCase()}</h1>
@@ -19,7 +19,6 @@ const ProjectCollection = ({title, items}) => (
 
             </div>
         </div>
-    </div>
 );
 
 export default ProjectCollection;

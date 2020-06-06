@@ -1,12 +1,7 @@
 import React from 'react';
 import './homepage.styles.scss';
 import Directory from '../../components/directory/directory.component'
-import CarouselSlide from "../../components/carousel/carousel.component";
 import Video from '../../components/video/video.component'
-
-import NavBar from '../../components/navbar/navbar.component'
-import NEWS_DATA from "../news/news.data";
-import SocialFollow from "../../components/social-media/social-media.component";
 
 class HomePage extends React.Component {
     constructor(props) {
@@ -106,8 +101,8 @@ class HomePage extends React.Component {
         }
 
         canvas.addEventListener('mousemove', function (e) {
-            mouse.x = e.clientX;
-            mouse.y = e.clientY - 157;
+            mouse.x = e.clientX+5;
+            mouse.y = e.clientY - 120;
         });
 
 // Update and draw
@@ -124,7 +119,7 @@ class HomePage extends React.Component {
 
     render() {
 
-        return (<div className=''>
+        return (<div className='homepage-background'>
 
             <div className="">
 
